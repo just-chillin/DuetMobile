@@ -50,19 +50,17 @@ namespace DuetMobile.Views
             {
                 Text = "Sign In"
             };
-            signInButton.Clicked += signInButtonClicked;
+            signInButton.Clicked += SignInButtonClicked;
             stackLayout.Children.Add(signInButton);
 
             Content = stackLayout;
-
-
 
 
             InitializeComponent();
 
         }
 
-        private void signInButtonClicked(object sender, EventArgs e)
+        private void SignInButtonClicked(object sender, EventArgs e)
         {
             string email = emailEntry.Text;
             string password = passwardEntry.Text;
