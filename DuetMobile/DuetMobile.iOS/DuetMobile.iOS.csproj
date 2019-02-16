@@ -141,4 +141,7 @@
       <Name>DuetMobile</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logosquare.png" />
+  </ItemGroup>
 </Project>
