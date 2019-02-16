@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DuetMobile.loginSignUp"
+              BackgroundColor="Black"
+             >
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor= "White"
+                   />
+            <!--Enter User name-->
+            <Entry x:Name="username" Placeholder="User Name" BackgroundColor="Beige" />
+            <!--Enter Password -->
+            <Entry x:Name="password" IsPassword="True" Placeholder="Password" BackgroundColor="Beige" />
+            
+            <Button x:Name="Enter" Text="Enter" Clicked="Enter_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
