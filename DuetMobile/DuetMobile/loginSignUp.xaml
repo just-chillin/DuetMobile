@@ -6,7 +6,12 @@
              >
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand">
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Welcome To Duet!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor= "White"
+                   />
+            <Label Text="Find someone you vibe with. "
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
                    TextColor= "White"
@@ -16,7 +21,7 @@
             <!--Enter Password -->
             <Entry x:Name="password" IsPassword="True" Placeholder="Password" BackgroundColor="Beige" />
             
-            <Button x:Name="Enter" Text="Enter" Clicked="Enter_Clicked" />
+            <Button x:Name="Enter" Text="Sign In" Clicked="Enter_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

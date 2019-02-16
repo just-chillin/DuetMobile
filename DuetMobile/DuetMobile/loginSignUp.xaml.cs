@@ -24,7 +24,7 @@ namespace DuetMobile
             string pass = password.Text;
 
             // show the values for both variables using a popup
-            DisplayAlert("Entries value", name + " " + pass, "ok");
+            DisplayAlert("Values Entered:", name + " " + pass, "ok"); // placeholder?
 
         }
     }
