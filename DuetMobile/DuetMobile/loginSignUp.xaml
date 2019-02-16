@@ -20,7 +20,7 @@
             <Entry x:Name="username" Placeholder="User Name" BackgroundColor="Beige" />
             <!--Enter Password -->
             <Entry x:Name="password" IsPassword="True" Placeholder="Password" BackgroundColor="Beige" />
-            
+
             <Button x:Name="Enter" Text="Sign In" Clicked="Enter_Clicked" />
         </StackLayout>
     </ContentPage.Content>
