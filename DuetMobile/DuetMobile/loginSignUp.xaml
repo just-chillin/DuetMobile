@@ -2,19 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DuetMobile.loginSignUp"
-              BackgroundColor="Black"
+              BackgroundColor="#9DC3E7"
              >
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand">
             <Label Text="Welcome To Duet!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
-                   TextColor= "White"
+                   TextColor= "Black"
                    />
             <Label Text="Find someone you vibe with. "
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
-                   TextColor= "White"
+                   TextColor= "Black"
                    />
             <!--Enter User name-->
             <Entry x:Name="username" Placeholder="User Name" BackgroundColor="Beige" />
