@@ -16,7 +16,7 @@
 
 
 
-            <Button Text= "Find People"  Clicked="findPeople"/>
+            <Button Text="Find People"  Clicked="findPeople"/>
             <Button Text="My Duets" Clicked="matches" />
 
 

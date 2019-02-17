@@ -26,5 +26,18 @@ namespace DuetMobile
         {
             throw new NotImplementedException();
         }
+
+        private void findPeople(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void changeInterests(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+
+
     }
 }
