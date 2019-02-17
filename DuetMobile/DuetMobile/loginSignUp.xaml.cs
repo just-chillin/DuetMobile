@@ -26,9 +26,7 @@ namespace DuetMobile
         }
         private void signUpProcedure(object sender, EventArgs e)
         {
-            App.Current.MainPage = new NavigationPage();
-            //App.Current.MainPage.Navigation.PushAsync();
-           // App.Current.MainPage.Navigation.PushAsync();
+            Navigation.PushAsync(new signUpPage());
         }
     }
 

@@ -25,12 +25,13 @@
                    TextColor= "Black"
                    />
             <!--Enter User name-->
-            <Entry x:Name="username" Placeholder="User Name" BackgroundColor="White" />
+            <Entry x:Name="username" Placeholder="User Name" BackgroundColor="White"  />
             <!--Enter Password -->
             <Entry x:Name="password" IsPassword="True" Placeholder="Password" BackgroundColor="White" />
 
             <Button x:Name="Enter" Text="Sign In" Clicked="Enter_Clicked" />
             <Button x:Name="SignUp" Text="Create An Account" Clicked="signUpProcedure" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
