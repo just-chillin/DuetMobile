@@ -14,7 +14,7 @@ namespace DuetMobile
 	{
 		public SignUpPage ()
 		{
-			InitializeComponent ();
+		
 		}
        
     }
