@@ -14,7 +14,7 @@ namespace DuetMobile
             InitializeComponent();
 
 
-            MainPage = new DuetMobile.loginSignUp(); // set the login to the mainpage
+            MainPage = new NavigationPage ( new DuetMobile.loginSignUp()); // set the login to the mainpage
         }
 
         protected override void OnStart()
