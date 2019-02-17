@@ -10,19 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="icon.png" />
-    <None Remove="Images\iconwoborder.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Images\iconwoborder.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Images\iconwborder.png" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />  
   </ItemGroup>
 
