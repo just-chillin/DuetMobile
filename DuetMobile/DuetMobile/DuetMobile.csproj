@@ -10,11 +10,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Page2.xaml.cs" />
+    <None Remove="icon.png" />
+    <None Remove="Images\iconwoborder.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="Page2.xaml" />
+    <EmbeddedResource Include="Images\iconwoborder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\iconwborder.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,15 +28,6 @@
 
   <ItemGroup>
     <EmbeddedResource Update="loginSignUp.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Page1.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="SignUpPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Survey.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SignUp.xaml">
