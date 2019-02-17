@@ -10,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace DuetMobile
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SignUpPage : ContentPage
+	public partial class signUpPage : ContentPage
 	{
-		public SignUpPage ()
+		public signUpPage ()
 		{
-		
+			InitializeComponent ();
 		}
-       
-    }
+	}
 }
