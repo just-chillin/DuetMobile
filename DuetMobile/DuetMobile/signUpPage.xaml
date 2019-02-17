@@ -21,6 +21,9 @@
             <Label Text="Year of Birth:" />
             <Entry Text="" BackgroundColor="Beige" />
 
+            <!--Button to Create Account and go to survey -->
+            <Button Text="Create Account" Clicked="accountCreated"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

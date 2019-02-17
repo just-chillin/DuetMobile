@@ -16,5 +16,10 @@ namespace DuetMobile
         {
             InitializeComponent();
         }
+        private void accountCreated(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Survey());
+        }
+
     }
 }
