@@ -42,6 +42,8 @@
             <Entry Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
+            <Button Text="Upload Photo:" />
+            <Button Text="Finish" />
 
         </StackLayout>
     </ContentPage.Content>
