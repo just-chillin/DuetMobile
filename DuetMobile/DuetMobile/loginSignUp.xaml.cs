@@ -21,8 +21,12 @@ namespace DuetMobile
             string pass = password.Text;
 
             // show the values for both variables using a popup
-            DisplayAlert("Values entered:", name + " " + pass, "ok"); // placeholder?
-
+            //DisplayAlert("Values entered:", name + " " + pass, "ok"); // placeholder?
+            var conn = Services.ServerConnection.Connect();
+            var client = conn.client;
+            var shit = client.GetAsync("");
+            shit.RunSynchronously();
+            DisplayAlert("Message from the server", shit.Result.ToString(), "dont fukcing touch me u mongoloid");
         }
         private void signUpProcedure(object sender, EventArgs e)
         {
