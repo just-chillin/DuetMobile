@@ -6,14 +6,14 @@
               BackgroundColor="#9DC3E7"
              >
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand">
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
           
             <!-- use a custom Markup Extension -->
             <Image Source="{local:ImageResource DuetMobile.Images.iconwoborder.png}" 
-                VerticalOptions="Center"
+                VerticalOptions="Start"
                 HorizontalOptions="Center"
                 WidthRequest="150"
-                HeightRequest="75"
+                HeightRequest="85"
                    />
 
             <Label Text="Welcome To Duet!"
@@ -33,7 +33,13 @@
 
             <Button x:Name="Enter" Text="Sign In" Clicked="Enter_Clicked" />
             <Button x:Name="SignUp" Text="Create An Account" Clicked="signUpProcedure" />
-            
+
+            <Label Text=" "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor= "#9DC3E7"
+                   />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
