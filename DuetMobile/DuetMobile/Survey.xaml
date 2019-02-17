@@ -8,21 +8,21 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Label Text=" What bands/artists are you listening to right now?:"
+            <Label Text=" What bands / artists are you listening to right now?"
                    FontSize="Micro"
                    />
             <Entry x:Name="music"  Text= "" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
-            <Label Text=" What are your favorite movies?:" 
+            <Label Text=" What are your favorite movies?" 
                    FontSize="Micro"
                    />
             <Entry x:Name="movies" Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
-            <Label Text=" Read any good books lately?:" 
+            <Label Text=" Read any good books lately?" 
                    FontSize="Micro"
                    />
             <Entry x:Name="books" Text="" BackgroundColor="White" 
