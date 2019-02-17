@@ -11,7 +11,7 @@
             <Label Text=" What bands/artists are you listening to right now?:"
                    FontSize="Micro"
                    />
-            <Entry x:Name="music"  Placeholder="music"  Text= "" BackgroundColor="White" 
+            <Entry x:Name="music"  Text= "" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 

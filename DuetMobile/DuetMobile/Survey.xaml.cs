@@ -19,8 +19,9 @@ namespace DuetMobile
 
         private void usersProfile(object sender, EventArgs e)
         {
-            //string music = 
-           // string movies = movies.Text;
+            
+            //string music = musi
+            //string movies = movies.Text;
            // DisplayAlert("Values entered:", name + " " + pass, "ok");
             Navigation.PushAsync(new usersProfile());
         }
