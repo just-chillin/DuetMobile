@@ -4,21 +4,22 @@
              x:Class="DuetMobile.Survey">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Build a Profile"
+            <Label Text="Build your profile:"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="Small"/>
 
             <Label Text=" What bands / artists are you listening to right now?"
                    FontSize="Micro"
                    />
-            <Entry x:Name="music"  Placeholder="music"  Text= "" BackgroundColor="White" 
+            <Entry x:Name="music"  Placeholder=""  Text= "" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
-            <Label Text=" What are your favorite movies?" 
+            <Label Text=" What are your favorite movies / TV shows?" 
                    FontSize="Micro"
                    />
-            <Entry x:Name="movies" Text="" BackgroundColor="White" 
+            <Entry x:Name="flix" Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
@@ -26,13 +27,6 @@
                    FontSize="Micro"
                    />
             <Entry x:Name="books" Text="" BackgroundColor="White" 
-                   FontSize="Micro"
-                   />
-
-            <Label Text=" What are your favorite TV shows?" 
-                   FontSize="Micro"
-                   />
-            <Entry x:Name="tv" Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
