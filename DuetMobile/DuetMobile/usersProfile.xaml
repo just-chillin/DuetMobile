@@ -4,9 +4,20 @@
              x:Class="DuetMobile.usersProfile">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Profile"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Upload Photo" Clicked="uploadPhoto"/>
+            <Label Text="Interests:" />
+
+
+
+            <Button Text= "Find People" />
+            <Button Text="duets" Clicked="matches" />
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -16,5 +16,10 @@ namespace DuetMobile
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button_Clicked()
+        {
+
+        }
+    }
 }
