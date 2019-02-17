@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
@@ -93,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DuetMobile\DuetMobile.csproj">
-      <Project>{98B32337-B2F3-45C6-B6AB-ED11DED0D7B0}</Project>
+      <Project>{90BC5D42-3F1A-48B2-90F7-1FA165142D64}</Project>
       <Name>DuetMobile</Name>
     </ProjectReference>
   </ItemGroup>
