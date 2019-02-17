@@ -11,38 +11,37 @@
             <Label Text=" What bands/artists are you listening to right now?:"
                    FontSize="Micro"
                    />
-            <Entry Text= "" BackgroundColor="White" 
+            <Entry x:Name="music"  Placeholder="music"  Text= "" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
             <Label Text=" What are your favorite movies?:" 
                    FontSize="Micro"
                    />
-            <Entry Text="" BackgroundColor="White" 
+            <Entry x:Name="movies" Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
             <Label Text=" Read any good books lately?:" 
                    FontSize="Micro"
                    />
-            <Entry Text="" BackgroundColor="White" 
+            <Entry x:Name="books" Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
             <Label Text=" What are your favorite TV shows?" 
                    FontSize="Micro"
                    />
-            <Entry Text="" BackgroundColor="White" 
+            <Entry x:Name="tv" Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
 
             <Label Text=" What games do you play?" 
                    FontSize="Micro"
                    />
-            <Entry Text="" BackgroundColor="White" 
+            <Entry x:Name="games" Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
-            <Button Text="Upload Photo:"/>
             <Button Text="Finish" Clicked="usersProfile" />
 
         </StackLayout>
