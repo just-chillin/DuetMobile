@@ -29,7 +29,7 @@ namespace DuetMobile
         }
         private void signUpProcedure(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new SignUpPage());
+            Navigation.PushAsync(new Survey());
         }
     }
 }
