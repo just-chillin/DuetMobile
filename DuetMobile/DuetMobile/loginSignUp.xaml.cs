@@ -24,6 +24,12 @@ namespace DuetMobile
             DisplayAlert("Values entered:", name + " " + pass, "ok"); // placeholder?
 
         }
+        private void signUpProcedure(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage();
+            //App.Current.MainPage.Navigation.PushAsync();
+           // App.Current.MainPage.Navigation.PushAsync();
+        }
     }
 
     [ContentProperty(nameof(Source))]
