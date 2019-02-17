@@ -17,9 +17,14 @@ namespace DuetMobile
 			InitializeComponent ();
 		}
 
-        private void Button_Clicked()
+        private void uploadPhoto(object sender, EventArgs e)
         {
+            throw new NotImplementedException();
+        }
 
+        private void matches(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
