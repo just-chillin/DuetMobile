@@ -4,9 +4,23 @@
              x:Class="DuetMobile.signUpPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+           
+            <!--Enter School Email-->
+            <Label Text="School Email:" />
+            <Entry Text= "" BackgroundColor="Beige" />
+
+            <!--Enter First Name -->
+            <Label Text="First Name:" />
+            <Entry Text="" BackgroundColor="Beige" />
+
+            <!--Enter Last Name -->
+            <Label Text="Last Name:" />
+            <Entry Text="" BackgroundColor="Beige" />
+
+            <!--Enter Year of Birth -->
+            <Label Text="Year of Birth:" />
+            <Entry Text="" BackgroundColor="Beige" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
