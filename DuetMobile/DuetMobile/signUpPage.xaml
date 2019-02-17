@@ -4,26 +4,46 @@
              x:Class="DuetMobile.signUpPage">
     <ContentPage.Content>
         <StackLayout>
-           
+                      
             <!--Enter School Email-->
-            <Label Text="What's your university email?:" />
-            <Entry Text= "" BackgroundColor="White" />
+            <Label Text=" What's your university email?:" 
+                   FontSize="Micro"
+                   />
+            <Entry Text= "" BackgroundColor="White" 
+                   FontSize="Micro"
+                   />
 
             <!--Enter First Name -->
-            <Label Text="What's your first name?:" />
-            <Entry Text="" BackgroundColor="White" />
+            <Label Text=" What's your first name?:" 
+                   FontSize="Micro"
+                   />
+            <Entry Text="" BackgroundColor="White" 
+                   FontSize="Micro"
+                   />
 
             <!--Enter Last Name -->
-            <Label Text="What's your last name?:" />
-            <Entry Text="" BackgroundColor="White" />
+            <Label Text=" What's your last name?:"
+                   FontSize="Micro"
+                   />
+            <Entry Text="" BackgroundColor="White" 
+                   FontSize="Micro"
+                   />
 
             <!--Enter Gender -->
-            <Label Text="What gender do you identify as?:" />
-            <Entry Text="" BackgroundColor="White" />
+            <Label Text=" What gender do you identify as?:" 
+                   FontSize="Micro"
+                   />
+            <Entry Text="" BackgroundColor="White" 
+                   FontSize="Micro"
+                   />
 
             <!--Enter Year of Birth -->
-            <Label Text="What year were you born?:" />
-            <Entry Text="" BackgroundColor="White" />
+            <Label Text=" What year were you born?:" 
+                   FontSize="Micro"
+                   />
+            <Entry Text="" BackgroundColor="White" 
+                   FontSize="Micro"
+                   />
 
             <!--Button to Create Account and go to survey -->
             <Button Text="Create Account" Clicked="accountCreated"/>
