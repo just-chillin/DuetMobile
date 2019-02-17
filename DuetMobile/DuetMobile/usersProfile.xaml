@@ -9,12 +9,15 @@
                 HorizontalOptions="CenterAndExpand" />
 
             <Button Text="Upload Photo" Clicked="uploadPhoto"/>
-            <Label Text="Interests:" />
+            <Label Text="Interests:"  />
+
+            <Button Text="Change Interests" Clicked="changeInterests" />
 
 
 
-            <Button Text= "Find People" />
-            <Button Text="duets" Clicked="matches" />
+
+            <Button Text= "Find People"  Clicked="findPeople"/>
+            <Button Text="My Duets" Clicked="matches" />
 
 
 
