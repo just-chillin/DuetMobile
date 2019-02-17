@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace DuetMobile
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Survey : ContentPage
+	public partial class usersProfile : ContentPage
 	{
-		public Survey ()
+		public usersProfile ()
 		{
 			InitializeComponent ();
 		}
-
-        private void usersProfile(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new usersProfile());
-        }
-    }
+	}
 }

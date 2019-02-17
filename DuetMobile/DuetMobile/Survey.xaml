@@ -42,8 +42,8 @@
             <Entry Text="" BackgroundColor="White" 
                    FontSize="Micro"
                    />
-            <Button Text="Upload Photo:" />
-            <Button Text="Finish" />
+            <Button Text="Upload Photo:"/>
+            <Button Text="Finish" Clicked="usersProfile" />
 
         </StackLayout>
     </ContentPage.Content>
